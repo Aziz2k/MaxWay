@@ -1,0 +1,62 @@
+body,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+li{
+  list-style-type: none;
+}
+button{
+  border: 0;
+  cursor: pointer;
+  &:focus{
+    outline: unset;
+  }
+}
+@font-face {
+  font-family: 'inter-r';
+  src: url('../fonts/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: 'inter-b';
+  src: url('../fonts/Inter-Bold.ttf');
+}
+@font-face {
+  font-family: 'inter-black';
+  src: url('../fonts/Inter-Black.ttf');
+}
+@font-face {
+  font-family: 'inter-m';
+  src: url('../fonts/Inter-Medium.ttf');
+}
+@font-face {
+  font-family: 'inter-sb';
+  src: url('../fonts/Inter-SemiBold.ttf');
+}
+body{
+  font-family: 'inter-r';
+}
+.container{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap
+}
+
+
+
+
+@import 'blocks/content';
+@import 'blocks/mobMenu';
+@import 'blocks/mobFooter';
+@import 'blocks/flex';
+@import 'blocks/mixin';
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/media';

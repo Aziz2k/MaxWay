@@ -1,0 +1,111 @@
+mixin pizza(title='Gavaya',cost='45,000 UZS',img = 'pitza1.png')   
+  .col-6.col-md-12.col-xs-12  
+    .item.pizza 
+      .box  
+        .box__img   
+          img.img(src='assets/img/'+img , alt="")  
+        .box__content  
+          .box__title #{title}
+          .box__text Горячая закуска с митболами из говядины, томатами, моцареллой и соусом чипотле
+          .cost__btn
+            .box__cost #{cost}
+            button.box__btn 
+              img(src="assets/img/plus.png", alt="")
+
+
+mixin burger(title='Double Burger')   
+  .col-6.col-md-12.col-xs-12  
+    .item.burger 
+      .box  
+        .box__img   
+          img.img(src="assets/img/burger.png", alt="")  
+        .box__content  
+          .box__title #{title}
+          .box__text Горячая закуска с митболами из говядины, томатами, моцареллой и соусом чипотле
+          .cost__btn
+            .box__cost 23,000 UZS
+            button.box__btn 
+              img(src="assets/img/plus.png", alt="")
+
+mixin card(title='Kombo-1',cost='25,000 UZS',img = 'kombo1.png')    
+  .col-6.col-md-12.col-xs-12  
+    .item
+      .box  
+        .box__img   
+          img.img(src='assets/img/'+img, alt="")  
+        .box__content  
+          .box__title #{title}
+          .box__text Горячая закуска с митболами из говядины, томатами, моцареллой и соусом чипотле
+          .cost__btn
+            .box__cost #{cost}
+            button.box__btn 
+              img(src="assets/img/plus.png", alt="")
+
+mixin pizzaSvg(title='Kombo-1',cost='25,000 UZS',img = 'kombo1.png',svg='chesse.svg')    
+  .col-6.col-md-12.col-xs-12  
+    .item.pizza
+      .box  
+        .box__img   
+          img.img(src='assets/img/'+img, alt="")  
+        .box__content  
+          .box__title #{title}
+            img(src='assets/img/'+svg, alt="")
+          .box__text Горячая закуска с митболами из говядины, томатами, моцареллой и соусом чипотле
+          .cost__btn
+            .box__cost #{cost}
+            button.box__btn 
+              img(src="assets/img/plus.png", alt="")
+mixin burgerSvg(title='Kombo-1',cost='25,000 UZS',img = 'kombo1.png',svg='chesse.svg')    
+  .col-6.col-md-12.col-xs-12  
+    .item.burger
+      .box  
+        .box__img   
+          img.img(src='assets/img/'+img, alt="")  
+        .box__content  
+          .box__title #{title}
+            img(src='assets/img/'+svg, alt="")
+          .box__text Горячая закуска с митболами из говядины, томатами, моцареллой и соусом чипотле
+          .cost__btn
+            .box__cost #{cost}
+            button.box__btn 
+              img(src="assets/img/plus.png", alt="")
+
+
+mixin pizzaHot(title='Kombo-1',cost='25,000 UZS',img = 'kombo1.png',svg='chesse.svg')    
+  .col-6.col-md-12.col-xs-12  
+    .item.pizza
+      .box  
+        .box__img   
+          img.img(src='assets/img/'+img, alt="")
+          .img__hot
+            img.hot(src="assets/img/hot.svg", alt="")  
+        .box__content  
+          .box__title #{title}
+            img(src='assets/img/'+svg, alt="")
+          .box__text Горячая закуска с митболами из говядины, томатами, моцареллой и соусом чипотле
+          .cost__btn
+            .box__cost #{cost}
+            button.box__btn 
+              img(src="assets/img/plus.png", alt="")
+mixin burgerHot(title='Kombo-1',cost='25,000 UZS',img = 'kombo1.png',svg='chesse.svg')    
+  .col-6.col-md-12.col-xs-12  
+    .item.burger
+      .box  
+        .box__img   
+          img.img(src='assets/img/'+img, alt="")
+          .img__hot
+            img.hot(src="assets/img/hot.svg", alt="")  
+        .box__content  
+          .box__title #{title}
+            img(src='assets/img/'+svg, alt="")
+          .box__text Горячая закуска с митболами из говядины, томатами, моцареллой и соусом чипотле
+          .cost__btn
+            .box__cost #{cost}
+            button.box__btn 
+              img(src="assets/img/plus.png", alt="")
+
+
+
+
+
+
